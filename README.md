@@ -1,5 +1,5 @@
-# Hi, I'm Yuxia 👋  
-### 🤖 Robotics Motion Control Engineer | Teleoperation | Motion Retargeting | Whole-Body Control
+# RoboSnow 👋
+### 🤖 Teleoperation · Motion Retargeting · Trajectory Planning · Whole-Body Control
 
 [English](#-english) | [中文](#-中文)
 
@@ -7,16 +7,17 @@
 
 ## 🌍 English
 
-I build practical robotic systems for **teleoperation**, **motion retargeting**, **whole-body control**, and **motion planning**.
+I am a robotics engineer building practical systems for **teleoperation**, **motion retargeting**, **trajectory planning**, **whole-body control**, and **deployable robot software**.
 
-My work focuses on turning ideas into deployable robot software — from device integration and control semantics to backend execution, visualization, and system tools.
+My work focuses on turning robotics algorithms and ideas into usable software systems — from device integration and control abstractions to backend execution, motion generation, visualization, and engineering tools.
 
 ### 🚀 Current Focus
 - 🎮 Teleoperation runtime for embodied robots
 - 🕺 Human-to-robot motion retargeting
+- 📐 Trajectory generation and motion profile planning
 - 🦾 Whole-body control and trajectory projection
+- 🖥️ Visualization, monitoring, and debugging tools for robot operation
 - 🛠️ Engineering-friendly robot software architecture
-- 📡 Middleware, visualization, and deployable robot tools
 
 ### 🌟 Featured Projects
 
@@ -30,6 +31,9 @@ A customized motion retargeting pipeline for mapping human motion to humanoid ro
 #### 🖥️ [teleop_gui](https://github.com/xyodfish/teleop_gui)
 A teleoperation visualization and monitoring tool for robot operation, sensor inspection, WBC status tracking, and debugging.
 
+#### 📈 [trajectory_planner_utils](https://github.com/xyodfish/trajectory_planner_utils)
+A C++ trajectory planning utility library for motion profile generation, including trapezoidal velocity planning, double-S planning, and Cartesian trajectory generation.
+
 #### 📐 [SE3_Interpolation](https://github.com/xyodfish/SE3_Interpolation)
 Experiments and implementations related to SE(3) interpolation and geometric motion representation.
 
@@ -41,25 +45,26 @@ C++, Python
 ROS1, ROS2, MuJoCo, Pinocchio, TSID, OMPL
 
 **Interests**  
-Teleoperation, Retargeting, Whole-Body Control, Motion Planning, Embodied Intelligence
+Teleoperation, Retargeting, Trajectory Planning, Whole-Body Control, Motion Planning, Embodied Intelligence
 
 ### 📌 Philosophy
-I like building systems that are not only algorithmically meaningful, but also clean, extensible, and deployable in real robotic products.
+I like building robotic systems that are not only algorithmically meaningful, but also clean, extensible, and deployable in real products.
 
 ---
 
 ## 中文
 
-我主要做面向具身机器人的 **遥操作、动作重定向、全身控制与运动规划** 相关系统开发。
+我是一名机器人软件/运控工程师，主要关注 **遥操作、动作重定向、轨迹规划、全身控制** 以及 **可工程落地的机器人软件系统**。
 
-我更关注把算法能力真正做成可落地的软件系统，包括设备接入、控制语义抽象、后端执行、可视化监控以及工程化工具链。
+我更关心把算法能力真正做成可用的软件系统：从设备接入、控制抽象、后端执行，到轨迹生成、可视化监控和工程化工具链。
 
 ### 🚀 当前方向
 - 🎮 面向具身机器人的遥操作运行框架
 - 🕺 人体动作到机器人的动作重定向
-- 🦾 全身控制与轨迹投影/优化
+- 📐 轨迹生成与速度规划
+- 🦾 全身控制与轨迹投影
+- 🖥️ 面向机器人操作的可视化、监控与调试工具
 - 🛠️ 面向工程落地的机器人软件架构
-- 📡 中间件、可视化与可部署系统工具
 
 ### 🌟 代表项目
 
@@ -73,6 +78,9 @@ I like building systems that are not only algorithmically meaningful, but also c
 #### 🖥️ [teleop_gui](https://github.com/xyodfish/teleop_gui)
 一个面向遥操作场景的可视化监控与调试工具，支持机器人状态显示、传感器监控、WBC 信息跟踪和操作调试。
 
+#### 📈 [trajectory_planner_utils](https://github.com/xyodfish/trajectory_planner_utils)
+一个 C++ 轨迹规划工具库，支持梯形速度规划、双 S 速度规划以及笛卡尔轨迹生成等能力。
+
 #### 📐 [SE3_Interpolation](https://github.com/xyodfish/SE3_Interpolation)
 与 SE(3) 插值、位姿几何表示和运动表达相关的实验与实现。
 
@@ -84,10 +92,10 @@ C++, Python
 ROS1, ROS2, MuJoCo, Pinocchio, TSID, OMPL
 
 **关注方向**  
-遥操作、动作重定向、全身控制、运动规划、具身智能
+遥操作、动作重定向、轨迹规划、全身控制、运动规划、具身智能
 
 ### 📌 个人偏好
-我喜欢做既有算法意义、又有工程可落地性的机器人系统，而不是停留在概念验证阶段。
+我喜欢做既有算法意义、又有工程可落地性的机器人系统，而不是只停留在概念验证阶段。
 
 ---
 
