@@ -1,4 +1,4 @@
-# RoboSnow 👋
+# Yuxia 👋
 ### 🤖 Teleoperation · Motion Retargeting · Trajectory Planning · Whole-Body Control
 
 [English](#-english) | [中文](#-中文)
@@ -32,7 +32,7 @@ A customized motion retargeting pipeline for mapping human motion to humanoid ro
 A teleoperation visualization and monitoring tool for robot operation, sensor inspection, WBC status tracking, and debugging.
 
 #### 📈 [trajectory_planner_utils](https://github.com/xyodfish/trajectory_planner_utils)
-A C++ trajectory planning utility library for motion profile generation, including trapezoidal velocity planning, double-S planning, and Cartesian trajectory generation.
+A C++17 trajectory planning library for engineering-oriented motion generation, covering velocity profile planning, geometric trajectories, multi-point trajectory composition, and unified integration interfaces.
 
 #### 📐 [SE3_Interpolation](https://github.com/xyodfish/SE3_Interpolation)
 Experiments and implementations related to SE(3) interpolation and geometric motion representation.
@@ -79,7 +79,7 @@ I like building robotic systems that are not only algorithmically meaningful, bu
 一个面向遥操作场景的可视化监控与调试工具，支持机器人状态显示、传感器监控、WBC 信息跟踪和操作调试。
 
 #### 📈 [trajectory_planner_utils](https://github.com/xyodfish/trajectory_planner_utils)
-一个 C++ 轨迹规划工具库，支持梯形速度规划、双 S 速度规划以及笛卡尔轨迹生成等能力。
+一个面向工程落地的 C++17 轨迹规划库，覆盖速度规划、几何轨迹、多点轨迹拼接以及统一化集成接口。
 
 #### 📐 [SE3_Interpolation](https://github.com/xyodfish/SE3_Interpolation)
 与 SE(3) 插值、位姿几何表示和运动表达相关的实验与实现。
