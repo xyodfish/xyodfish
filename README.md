@@ -1,4 +1,4 @@
-# Hi, I'm Yuxia 👋
+# Hi, I'm RoboSnow 👋
 
 **🤖 Robotics Motion Control Engineer**  
 Focused on **teleoperation**, **motion retargeting**, **whole-body control**, and **motion planning** for embodied robots.
