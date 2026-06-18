@@ -26,7 +26,10 @@ My work focuses on turning robotics algorithms and ideas into usable software sy
 A unified teleoperation framework for embodied robots, with support for control primitives, orchestration, retargeting, and backend execution.
 
 #### 🤹 [GMR_custom](https://github.com/xyodfish/GMR_custom)
-A customized motion retargeting pipeline for mapping human motion to humanoid robots in real time.
+A customized motion retargeting pipeline for mapping human motion to humanoid robots in real time, with C++ implementation and demo tests.
+
+#### 🦾 [robot_kinematic_viewer](https://github.com/xyodfish/robot_kinematic_viewer)
+An interactive robot kinematics debugger built with OpenGL and ImGui — IK solving, trajectory replay, collision monitoring, built-in trajectory planning, and video export.
 
 #### 🖥️ [teleop_gui](https://github.com/xyodfish/teleop_gui)
 A teleoperation visualization and monitoring tool for robot operation, sensor inspection, WBC status tracking, and debugging.
@@ -42,7 +45,7 @@ Experiments and implementations related to SE(3) interpolation and geometric mot
 C++, Python
 
 **Robotics / Tools**  
-ROS1, ROS2, MuJoCo, Pinocchio, TSID, OMPL
+ROS1, ROS2, MuJoCo, Pinocchio, TSID, OMPL, ImGui
 
 **Interests**  
 Teleoperation, Retargeting, Trajectory Planning, Whole-Body Control, Motion Planning, Embodied Intelligence
@@ -73,7 +76,10 @@ I like building robotic systems that are not only algorithmically meaningful, bu
 一个面向具身机器人的通用遥操作框架，支持 primitive 抽象、调度编排、retargeting 和后端执行。
 
 #### 🤹 [GMR_custom](https://github.com/xyodfish/GMR_custom)
-一个定制化的人体动作重定向流程，用于将人体运动实时映射到人形机器人。
+一个定制化的人体动作重定向流程，用于将人体运动实时映射到人形机器人，包含 C++ 实现与 demo 测试。
+
+#### 🦾 [robot_kinematic_viewer](https://github.com/xyodfish/robot_kinematic_viewer)
+基于 OpenGL + ImGui 的交互式机器人运动学调试器，支持 IK 求解、轨迹回放、碰撞监控、内置轨迹规划与视频导出。
 
 #### 🖥️ [teleop_gui](https://github.com/xyodfish/teleop_gui)
 一个面向遥操作场景的可视化监控与调试工具，支持机器人状态显示、传感器监控、WBC 信息跟踪和操作调试。
@@ -89,7 +95,7 @@ I like building robotic systems that are not only algorithmically meaningful, bu
 C++, Python
 
 **机器人相关工具**  
-ROS1, ROS2, MuJoCo, Pinocchio, TSID, OMPL
+ROS1, ROS2, MuJoCo, Pinocchio, TSID, OMPL, ImGui
 
 **关注方向**  
 遥操作、动作重定向、轨迹规划、全身控制、运动规划、具身智能
